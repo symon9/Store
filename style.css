@@ -1,0 +1,694 @@
+@import url(_____);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+
+:root {
+    /*COLORS */
+    --COLOR: ORANGE;
+    --COLOR: GOLD;
+    --HEADING-COLOR: BLUE;
+    --COLOR: BLACK;
+    --COLOR: WHITE;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.top-bar {
+    margin: 8px;
+    padding: 5;
+    margin-left: 30px;
+}
+
+.number {
+    padding: 10px;
+    padding-left: 5px;
+}
+
+.stick {
+    padding-left: 8px;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+    min-height: 200vh;
+}
+
+h1 {
+    margin: 20px;
+    margin-left: 60px;
+    color: #fff;
+}
+
+.sp {
+    color: orange;
+}
+
+h1,
+nav {
+    display: inline-block;
+}
+
+nav {
+    float: right;
+
+}
+
+ul,
+li {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.list {
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+header {
+    background-color: #000;
+    margin-bottom: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+}
+
+img {
+    margin-top: 0;
+    background-size: cover;
+    width: 100%;
+}
+
+.container_small {
+    box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.21);
+
+}
+
+
+
+
+.div1 {
+    position: relative;
+    text-align: center;
+    background-color: hsla(0, 0%, 11%, 0.514);
+
+}
+
+.div2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    background-color: hsla(0, 0%, 11%, 0.514);
+    transform: translate(-50%, -50%);
+}
+
+.container-whole {
+    background-color: rgba(0, 0, 0, 0.644);
+}
+
+
+h2 {
+    font-size: 4rem;
+    text-shadow: 2px 2px 5px#000;
+}
+
+.button {
+    margin: 20px;
+    background-color: orange;
+    border: 2px solid #fff;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 24px;
+
+}
+
+button:hover {
+    color: #000;
+    background-color: rgb(226, 148, 4);
+}
+
+ul li a:hover {
+    color: gold;
+}
+
+.active,
+ul li a:active {
+    color: blue;
+}
+
+.up {
+    background-color: orange;
+    margin-left: 10px;
+    color: #000;
+}
+
+.signup {
+    margin-right: 20px;
+}
+
+.login {
+    margin-right: 3px;
+    margin-left: 55px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.911);
+    padding: 1rem;
+}
+
+.container {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    grid-auto-rows: minmax(150px, auto);
+}
+
+.listin {
+    margin: 30px;
+    text-align: center;
+}
+
+.listing {
+    text-shadow: none;
+    color: var(--HEADING-COLOR);
+}
+
+.abt {
+    margin: 20px;
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    padding: 5px;
+    border: 1px solid orange;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: orange;
+    margin: 5px;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+
+th,
+td,
+tr,
+caption {
+    border: 1px solid #000;
+    padding: 0.5rem;
+    padding-left: 4rem;
+    padding-right: 3rem;
+}
+
+caption {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.ready {
+    font-size: 17px;
+    font-family: sans-serif;
+    background-color: orange;
+    color: #000;
+    border-radius: 5px;
+    border: 2px solid orange;
+
+}
+
+.readyy {
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+.ready:hover {
+    background-color: #00f;
+    border-color: #00f;
+}
+
+.servic {
+    text-align: center;
+    text-shadow: none;
+    color: var(--HEADING-COLOR);
+
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    gap: 10rem;
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-bottom: 50px;
+
+}
+
+.service-p {
+    text-align: center;
+}
+
+.boxx {
+    background-color: orange;
+    min-height: 250px;
+    text-align: center;
+
+}
+
+.services-buy {
+    margin-top: 50px;
+    font-size: 2.5rem;
+    color: #000;
+}
+
+.services-sell {
+    margin-top: 50px;
+    font-size: 2.5rem;
+    color: #000;
+}
+
+.services-p-sell {
+    margin: 20px;
+    color: #fff;
+}
+
+.services-p-buy {
+    margin: 20px;
+    color: #fff;
+}
+
+.sign {
+    background-color: rgba(0, 0, 255, 0);
+    text-align: center;
+    text-shadow: none;
+    color: var(--HEADING-COLOR);
+}
+
+.container_form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    margin: 50px;
+}
+
+.boxform {
+    background-color: aqua;
+    min-height: 480px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.699);
+
+}
+
+.box1 {
+    padding-bottom: 0;
+
+}
+
+.box2 {
+    background-image: radial-gradient(#00f, orange);
+}
+
+.fullform {
+    box-shadow: -10px -10px 5px rgba(0, 0, 0, 0.699);
+
+    margin-top: 40%;
+    margin-left: 25%;
+    border: 2px solid rgba(255, 255, 255, 0.041);
+    width: 50%;
+    place-content: center;
+    background-color: rgba(240, 248, 255, 0.514);
+}
+
+.signup-header {
+    text-shadow: none;
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px;
+}
+
+.form {
+    margin: 10px;
+}
+
+.signup-buttom {
+    width: 260px;
+    margin-top: 10px;
+    padding: 3px;
+    border-radius: 30px;
+    border-color: #fff;
+    border-width: 0;
+    cursor: pointer;
+    color: rgb(0, 255, 13);
+    background-color: #00f;
+    font-size: 22px;
+}
+
+label {
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+.input {
+    border-color: #fff;
+    padding: 7.5px;
+    border-width: 0;
+    border-radius: 20px;
+    width: 255px;
+}
+
+.label {
+    margin-left: 5px;
+}
+
+.have {
+    text-align: center;
+    margin: 8px;
+}
+
+.acctlogin {
+    padding: 4px;
+    background-color: orange;
+    border: 1px solid orange;
+    color: #000;
+}
+
+.acctlog {
+    margin: 10px;
+}
+
+.acctlogin:hover {
+    color: #00f;
+}
+
+.serviceone:hover {
+    background-color: #00f;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.50);
+}
+
+.servichov:hover {
+    background-color: #00f;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.50);
+}
+
+.container-abt {
+    margin: 20px;
+    background-color: #fff;
+    min-height: 500px;
+    padding: 20px;
+}
+
+.abthead {
+    text-align: center;
+    color: var(--HEADING-COLOR);
+}
+
+.abthead {
+    text-shadow: none;
+}
+
+.abth {
+    text-align: center;
+    font-size: 19px;
+}
+
+.mission {
+    text-align: center;
+}
+
+.viscon {
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 400px;
+}
+
+.abthd {
+    color: orange;
+    font-size: 40px;
+}
+
+.visp {
+    font-size: 19px;
+}
+
+.join {
+    margin-top: 25px;
+    margin-left: 10px;
+    color: #00f;
+    font-size: 20px;
+    border-bottom: 5px solid #00f;
+    width: 106px;
+}
+
+.join a {
+    color: #00f;
+    width: 106px;
+    padding: 0;
+}
+
+.join a:hover {
+    color: orange;
+}
+
+.join:hover {
+    border-bottom-color: orange;
+}
+
+.about-container {
+    position: relative;
+}
+
+.imgabout {
+    width: 85%;
+    border-radius: 30px;
+}
+
+.imgabt {
+    position: absolute;
+    bottom: 15px;
+    left: 725px;
+}
+
+.h2message-us {
+    text-shadow: none;
+    color: var(--HEADING-COLOR);
+    text-align: center;
+}
+
+.container-message {
+    margin: 20px;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+}
+
+.box-message {
+    background-color: #00f;
+    width: 700px;
+}
+
+.firstbox {
+    width: 600px;
+    height: 400px;
+}
+
+.denys {
+    height: 400px;
+}
+
+.secondbox {
+
+    background-color: rgba(250, 243, 232, 0.80);
+    text-align: center;
+}
+
+.h3message {
+    margin-top: 20px;
+}
+
+.input-message {
+    margin-top: 5px;
+    padding: 10px;
+    padding-right: 65px;
+    background-color: #fff;
+    border-color: #fff;
+    border-width: 0px;
+    border-radius: 5px;
+}
+
+.textarea {
+    background-color: #fff;
+    margin-top: 5px;
+    border-color: #fff;
+    border-width: 0px;
+    border-radius: 5px;
+}
+
+.Send-us-Message {
+    margin-top: 5px;
+    background-color: orange;
+    padding: 7px;
+    padding-right: 70px;
+    color: rgba(3, 3, 231, 0.863);
+    border-radius: 5px;
+    border-width: 0px;
+    font-size: 15px;
+}
+
+.sm:hover {
+    border-width: 0px;
+}
+
+.pmessage {
+    margin-top: 5px;
+}
+
+
+
+.login-box {
+    background-color: rgb(68, 35, 165);
+    background-image: radial-gradient(orange, blue);
+}
+
+video {
+    display: block;
+}
+
+.spiral {
+    width: 100%;
+}
+
+.container-login {
+    position: relative;
+}
+
+.login-form {
+    box-shadow: 10px -10px 5px rgba(0, 0, 0, 0.70);
+    padding: 60px;
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 0.74);
+    position: absolute;
+    top: 288px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.login-form:hover {
+    background-color: rgba(55, 0, 255, 0.25);
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-delay: .5s;
+}
+
+.headlogin {
+    margin: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.login-bx {
+    border: 1px solid #fff;
+    padding: 7px;
+    width: 300px;
+}
+
+.staysignin {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.fgetp {
+    text-align: right;
+}
+
+.login-btn {
+    padding: 6px;
+    width: 300px;
+    font-size: 18px;
+    background-color: #00f;
+    border-color: #00f;
+    border-width: 0px;
+    border-radius: 5px;
+}
+
+.no-acct {
+    color: orange;
+    place-content: center;
+    justify-content: center;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.noaccount {
+    text-align: center;
+    margin: 8px;
+}
+
+.sign-or {
+    margin-bottom: 0px;
+    text-align: center;
+
+}
+
+.sign-btn {
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #000;
+    color: orange;
+    border-width: 0px;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.fg {
+    padding-left: 88px;
+}
+
+.fg-a {
+    color: orange;
+    font-size: 13px;
+}
+
+.fg-a:hover {
+    color: #00f;
+}
