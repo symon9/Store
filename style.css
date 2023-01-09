@@ -692,3 +692,7 @@ video {
 .fg-a:hover {
     color: #00f;
 }
+
+footer{
+    width: 100%;
+}
